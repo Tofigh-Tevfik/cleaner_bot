@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find cleaner_bot)/launch/navigation.launch" />
+  <node pkg="cleaner_bot" name="coverage_path_planner" type="coverage_path_planner" />
+  <node pkg="cleaner_bot" name="rviz_path_visualizer" type="rviz_path_visualizer" />
+</launch>
