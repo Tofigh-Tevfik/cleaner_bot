@@ -9,4 +9,7 @@ sudo apt-get install ros-noetic-move-base ros-noetic-turtlebot3-bringup ros-noet
 ```
 
 ## Usage
-Clone this repository in `catkin_ws/src` 
+Clone this repository in `catkin_ws/src` and build your workspace:
+```bash
+catkin_make
+```
