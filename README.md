@@ -28,3 +28,7 @@ Do not forget to save your map after exploration is done with:
 ```bash
 rosrun map_server map_saver --occ 90 --free 10 -f ~/catkin_ws/src/cleaner_bot/map/<YOUR_MAP> map:=/map
 ```
+Then you can perform cleaning by first closing the exploration node and running:
+```bash
+roslaunch cleaner_bot do_cleaning.launch
+```
