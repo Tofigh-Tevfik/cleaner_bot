@@ -7,3 +7,6 @@ For that:
 ```bash
 sudo apt-get install ros-noetic-move-base ros-noetic-turtlebot3-bringup ros-noetic-turtlebot3-navigation ros-noetic-explore-lite
 ```
+
+## Usage
+Clone this repository in `catkin_ws/src` 
