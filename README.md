@@ -33,4 +33,7 @@ Then you can perform cleaning by first closing the exploration node and running:
 roslaunch cleaner_bot do_cleaning.launch
 ```
 ## YouTube Video
-Here is a YouTube Video [link](https://youtu.be/XLfpaYYfUjw)
+Here is a [YouTube Video](https://youtu.be/XLfpaYYfUjw) of the project.
+
+## Report
+For further explanation check `cleaner_bot.pdf` inside the repository.
