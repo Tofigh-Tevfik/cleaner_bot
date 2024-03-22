@@ -13,3 +13,18 @@ Clone this repository in `catkin_ws/src` and build your workspace:
 ```bash
 catkin_make
 ```
+## Running
+Start the gazebo simulation with
+```bash
+roslaunch cleaner_bot gazebo.launch
+```
+
+If the map of your world is not known then you must run the exploration first which is:
+```bash
+roslaunch cleaner_bot explore.launch
+```
+
+Do not forget to save your map after exploration is done with:
+```bash
+rosrun map_server map_saver --occ 90 --free 10 -f ~/catkin_ws/src/cleaner_bot/map/<YOUR_MAP> map:=/map
+```
