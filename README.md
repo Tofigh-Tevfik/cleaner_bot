@@ -32,3 +32,5 @@ Then you can perform cleaning by first closing the exploration node and running:
 ```bash
 roslaunch cleaner_bot do_cleaning.launch
 ```
+## YouTube Video
+Here is a YouTube Video [link](https://youtu.be/XLfpaYYfUjw)
